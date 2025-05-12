@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 def main(video_path):
-    video_path = ("C:\\Users\\rinku\\Downloads\\Untitled video - Made with Clipchamp (1).mp4")
+    video_path = ("C:\\Users\\This PC\\Downloads\\Untitled video - Made with Clipchamp (1).mp4")
     cap = cv2.VideoCapture(video_path)
     if not cap.isOpened():
         print("Error: Could not open video.")
